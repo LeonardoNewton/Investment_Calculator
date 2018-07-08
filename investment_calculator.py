@@ -2,7 +2,8 @@ import math
 print('Investment Calculator:')
 
 p = float(input('Principle:'))
-i = float(input('Rate of Interest:'))
+i = float(input('Rate of Interest as percentage, 7 = 0.07:'))
+i = i/100
 years= int(input('Duration in years:'))
 a = int(input('Contributions:'))
 
